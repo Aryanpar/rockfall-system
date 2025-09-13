@@ -16,12 +16,12 @@ export default function HomePage() {
             <h1 className="text-2xl font-bold text-white">RockGuard AI</h1>
           </div>
           <div className="flex gap-2">
-            <Link href="/admin/dashboard">
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white">Admin Dashboard</Button>
+            <Link href="/admin/login">
+              <Button className="bg-orange-600 hover:bg-orange-700 text-white">Admin Login</Button>
             </Link>
-            <Link href="/miner/dashboard">
+            <Link href="/miner/login">
               <Button variant="outline" className="border-slate-600 text-slate-200 hover:bg-slate-800 bg-transparent">
-                Miner Dashboard
+                Miner Login
               </Button>
             </Link>
           </div>
@@ -45,18 +45,18 @@ export default function HomePage() {
             SMS alerts to keep workers safe from rockfall hazards.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link href="/admin/dashboard">
+            <Link href="/admin/login">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
-                Admin Dashboard
+                Admin Login
               </Button>
             </Link>
-            <Link href="/miner/dashboard">
+            <Link href="/miner/login">
               <Button
                 size="lg"
                 variant="outline"
                 className="border-slate-600 text-slate-200 hover:bg-slate-800 bg-transparent"
               >
-                Miner Dashboard
+                Miner Login
               </Button>
             </Link>
             <Link href="/predictions">
@@ -241,7 +241,7 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <div className="flex gap-4 justify-center flex-wrap">
-                <Link href="/admin/dashboard">
+                <Link href="/admin/login">
                   <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
                     Access Admin Panel
                   </Button>
